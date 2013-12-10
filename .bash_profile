@@ -1,0 +1,21 @@
+alias ls="ls -G"
+export PS1="\u:\w $ "
+alias ftrunk='find -L ~/trunk -name'
+alias fc2dsource='find -L ~/c2dsource -name'
+alias fothersource='find -L ~/othersource -name'
+alias hudson='ssh armedtomato@10.1.3.29'
+alias xz='adb uninstall air.DragonEmpire'
+alias az='adb install'
+alias tp='/Applications/TexturePacker.app/Contents/MacOS/TexturePacker'
+alias g='cd ~/newcoc/src-cocos-2dx/proj.android/'
+alias l='adb logcat -c'
+alias s='source ~/.bash_profile'
+
+export ANDROID_HOME=/Users/chenliang/android-sdk-macosx/android-sdk-macosx
+export PATH=$PATH:$ANDROID_HOME/platform-tools/
+export PATH=$PATH:$ANDROID_HOME/tools/
+export PATH=$PATH:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+export PATH=$PATH:/Applications/BlueStacks.app/Contents/Runtime
+export NDK_ROOT=~/android-ndk-r8d
+export PATH=$PATH:$NDK_ROOT
+export TEXTURE_PACKER=/Applications/TexturePacker.app/Contents/MacOS/TexturePacker
