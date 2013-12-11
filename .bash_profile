@@ -10,6 +10,7 @@ alias tp='/Applications/TexturePacker.app/Contents/MacOS/TexturePacker'
 alias g='cd ~/newcoc/src-cocos-2dx/proj.android/'
 alias l='adb logcat -c'
 alias s='source ~/.bash_profile'
+alias st='adb shell am start -n air.DragonEmpire/air.DragonEmpire.DragonEmpire'
 
 export ANDROID_HOME=/Users/chenliang/android-sdk-macosx/android-sdk-macosx
 export PATH=$PATH:$ANDROID_HOME/platform-tools/
